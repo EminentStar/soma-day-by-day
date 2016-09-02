@@ -16,9 +16,6 @@
 
 > 3. The hash function partitions the input set into subsets of input vectors that all produce the same output. => why?
 
-why
-
-
 
 * uniform distribution 특징을 갖고 있다는데, 왜 hash function이 uniform distribution
 
