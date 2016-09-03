@@ -63,44 +63,12 @@
 
 
 
-> Facebook 크롤러는 다음 User-Agent 문자열 중 하나로 식별할 수 있다.
-
-
-
-facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php)
-
-
-
-또는
-
-
-
-facebookexternalhit/1.1
-
-
-
-이러한 User-Agent 중 하나를 타겟으로 지정하여 메타데이터만 있고 실제 콘텐츠가
-
-없는 페이지의 비공개 버전을 Facebook 크롤러에 제공할 수 있다. 그러면 성과를 
-
-최적화할 수 있고 paywall이 적용된 콘텐츠를 안전하게 유지하는 데 유용하다.
-
-
-
-2014년 5월 28일부터 다음 User-Agent 문자열이 포함된 크롤러도 확인할 수 있다.
-
-
+> Facebook 크롤러는 다음 User-Agent 문자열 중 하나로 식별할 수 있다. facebookexternalhit/1.1 (+http://www.facebook.com/externalhit_uatext.php) 또는 facebookexternalhit/1.1 이러한 User-Agent 중 하나를 타겟으로 지정하여 메타데이터만 있고 실제 콘텐츠가 없는 페이지의 비공개 버전을 Facebook 크롤러에 제공할 수 있다. 그러면 성과를 최적화할 수 있고 paywall이 적용된 콘텐츠를 안전하게 유지하는 데 유용하다. 2014년 5월 28일부터 다음 User-Agent 문자열이 포함된 크롤러도 확인할 수 있다.
 
 *  USER-AGENT 값으로 어떤 변화를 줄 수 있을까요?
 
-
-
 > 1. User-Agent 값을 통해 모바일 사이트를 위한 반응형 디자인을 구현할 수 있다.
 
-
-
 > 2. 모든 브라우저에 맞는 반응형 디자인을 구현할 수 있다.
-
-
 
 > 3. 어떤 클라이언트를 통해 사이트에 접속하는지 추적, 통계를 진행할 수 있다.
