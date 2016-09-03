@@ -46,33 +46,16 @@
 
 
 
-> 2. Open Addressing : Linear Probing(충돌이 발생하면 해시 테이블 내의 새로운
-
-주소를 탐사(Probe)하여 충돌된 데이터를 입력하는 방식), Quadratic Probing(Linear Probing은 
-
-고정폭만큼 이동하는 것에 비해 Quadrativ Probing은 이동폭이 제곱수로 늘어난다),
-
-Double Hashing(클러스터 방지를 위해, 2개의 해시 함수를 준비해서 하나는 최초의 주소 방법이 있다.
+> 2. Open Addressing : Linear Probing(충돌이 발생하면 해시 테이블 내의 새로운 주소를 탐사(Probe)하여 충돌된 데이터를 입력하는 방식), Quadratic Probing(Linear Probing은 고정폭만큼 이동하는 것에 비해 Quadrativ Probing은 이동폭이 제곱수로 늘어난다), Double Hashing(클러스터 방지를 위해, 2개의 해시 함수를 준비해서 하나는 최초의 주소 방법이 있다.
 
                          
-
-
 
 * User-Agent란? 
 
 
-
-> User-Agent: <something>은 HTTP클라이언트(브라우저, 봇 등)가 HTTP 요청을 서버로
-
-보내면서 전송하는 문자열이다. User-Agent 구문은 "/(슬래쉬)와 버전 명을 포함한 소프트웨어 제품 이름"
-
-으로 정의되어 있다. User-Agent 문자열이 나타난다면 클라이언트에 의해 사용된 소프트웨어
-
-프로그램 정보를 전달한다. 이는 통계 목적과 프로토콜 위반을 추적하기 위한 것이기
-
+> User-Agent: <something>은 HTTP클라이언트(브라우저, 봇 등)가 HTTP 요청을 서버로 보내면서 전송하는 문자열이다. User-Agent 구문은 "/(슬래쉬)와 버전 명을 포함한 소프트웨어 제품 이름" 
+으로 정의되어 있다. User-Agent 문자열이 나타난다면 클라이언트에 의해 사용된 소프트웨어 프로그램 정보를 전달한다. 이는 통계 목적과 프로토콜 위반을 추적하기 위한 것이기
 때문에 반드시 포함해야 한다.
-
-
 
 
 
