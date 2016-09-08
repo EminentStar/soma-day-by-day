@@ -1,9 +1,14 @@
 클라이언트에서 nginx/apache 등의 웹 서버에 데이터를 보낼때, Request 와 Response 측면에서 어떤 데이터들이 전달되는지 정리하시오. GET 형식과 POST 형식으로 보낼 때, HTTP-Header 들과 실제 데이터가 어떤식으로 전달되는지 샘플과 각각의 설명을 달아주세요.
 =
+----
 
 ## 클라이언트에서 웹 서버로 Request를 보낼 때, 자주 사용하는 메소드로는 GET과 POST가 있다.
+
 GET 메소드는 웹 서버로부터 데이터를 요청하지만, 서버의 데이터를 수정하지는 않는다.
+
 POST 메소드는 서버의 상태를 변화시킬 수 있다.
+
+----
 
 GET 방식의 전송되는 데이터로는
 * Request Line
@@ -18,6 +23,8 @@ POST 방식의 전송되는 데이터로는
 가 있다.
 
 ## Request Line은 HTTP메소드와 웹서버상에서의 자원에 대한 경로, 파라미터, 프로토콜 버전을 담고있다.
+
+----
 
 > GET / HTTP/1.1
 
@@ -125,6 +132,7 @@ POST 방식의 전송되는 데이터로는
 * Warning : entity body와 함께 가능성 있는 문제에 대한 일반적인 경고
 >> Warning: 199 Miscellaneous warning
 
+----
 
 ## POST 메소드의 Request에는 Request Line과 Request Header뿐만 아니라 Message Body도 추가된다. GET에서는 Request Line에 파라미터를 붙였지만, 길이제한이나 보안적 이슈 때문에 POST에서는 Message Body에 추가되며 제한이 없다.
 
@@ -301,6 +309,8 @@ User-Agent는 Mac OS X의 크롬브라우저를 사용중이다.
 수용가능한 언어로는 한국어, 영어가 있다.
 또한 서버로부터 이전에 보내진 HTTP 쿠키가 남아있다.
 
+----
+
 #### Response Header
 ```
 HTTP/1.1 200 OK 
@@ -325,6 +335,7 @@ Set-Cookie: sid=7d1f5126362a4ca39ea2f82625bcc8e8ee4e0f94; Domain=coupang.com; Ex
 해당 사이트에서 추천하는 렌더링 엔진은 IE-edge이고, 
 Pragma와 Cache-Control을 no-cache로 지정함으로써 브라우저나 프락시 서버로 부터 요청시에 캐시된 문서를 사용하지 말고 매번 서버로부터 새로운 문서를 다시 전송받아 사용하도록 한다. 또한 브라우저에서는 캐시를 저장하지 않으며 응답되는 메시지의 언어는 한국어이다. 응답에서 사용하는 압축 알고리즘은 gzip이고, 응답 메시지가 보내진 시간은 2016년 9월 8일 목요일 17시 16분 17초이다. Response body의 전체 길이는 44030바이트이며, 클라이언트-서버간 연결은 keep-alive방식이다.
 
+----
 
 POST 방식의 데이터 샘플을 브라우저에서 추출하려고하는데, POST 요청을 날리면 바로 GET 으로 재호출을 해서 request 및 response를 확인을 할 수 없는 것 같다. 방법을 강구해봐야겠다.
 
