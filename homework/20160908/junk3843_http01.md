@@ -11,14 +11,17 @@ POST 메소드는 서버의 상태를 변화시킬 수 있다.
 ----
 
 GET 방식의 전송되는 데이터로는
-* Request Line
-* Request Header
+
+* Request Line 
+* Request Header 
+
 가 있다.
 
 POST 방식의 전송되는 데이터로는
-* Request Line
-* Request Header
-* Message body
+
+* Request Line 
+* Request Header 
+* Message body 
 
 가 있다.
 
@@ -134,11 +137,15 @@ POST 방식의 전송되는 데이터로는
 
 ----
 
-## POST 메소드의 Request에는 Request Line과 Request Header뿐만 아니라 Message Body도 추가된다. GET에서는 Request Line에 파라미터를 붙였지만, 길이제한이나 보안적 이슈 때문에 POST에서는 Message Body에 추가되며 제한이 없다.
+### POST 메소드의 Request에는 Request Line과 Request Header뿐만 아니라 Message Body도 추가된다. GET에서는 Request Line에 파라미터를 붙였지만, 길이제한이나 보안적 이슈 때문에 POST에서는 Message Body에 추가되며 제한이 없다.
 
-### HTTP의 응답은 Status-Line(headers)과 body로 구성되어 있다.
+---
 
-Response Header
+
+## HTTP의 응답은 Status-Line(headers)과 body로 구성되어 있다.
+
+### Response Header
+
 ------
 * Access-Control-Allow-Origin : Cross-Origin Resource Sharing에서 웹사이트가 참여할 수 있는지를 상세화한다.
 >> Access-Control-Allow-Origin: * 
