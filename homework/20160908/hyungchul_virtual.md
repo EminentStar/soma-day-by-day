@@ -54,6 +54,7 @@ server {
 ---
 
 참고자료 : http://i5on9i.blogspot.kr/2016/01/nginx-server.html
+
           http://blog.embian.com/46
 
 ---
