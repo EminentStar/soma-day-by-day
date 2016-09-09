@@ -14,15 +14,15 @@ Web Server에는 기본적으로 존재하는 Host가 있으며, 이를 Main Hos
   이를 이용하여 하나의 컴퓨터에서 여러개의 Web Site(예를 들어 Embian1.com, Embian2.com)를 서비스할수 있다.
   Apache에서는 Name-based Virtual Host 와 IP-based Virtual Host 그리고 Post-based Host 세 가지 방식을 제공한다. 
 
-1. Name-based Virtual Host 
+  1. Name-based Virtual Host 
 
   일명 이름 기반의 가상호스트라고 한다. 이것은 하나의 IP Address당 여러 이름을 가지는 방식이며, 가장 보편적인 방법이다. 
 
-2. IP-based Virtual Host
+  2. IP-based Virtual Host
 
   일명 IP Address 기반의 가상호스트라고 하며, 각 웹 사이트마다 다른 IP Address 또는 Port를 가지는 방식이다. 
 
-3. Post-based Virtual Host
+  3. Post-based Virtual Host
 IP Address를 다르게 하는 방법도 있지만, 동일한 Ip Address를 주고 Port를 다르게 하는 방법도 있다. 
 
 -----
