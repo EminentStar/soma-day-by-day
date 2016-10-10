@@ -1,6 +1,6 @@
 # Logging Requirements
 ## Required Log
-1. HTTP Request: (요청날짜/시간, method, status code)
+1. HTTP Request: (요청날짜/시간, method)
 > * 사용자 접속횟수를 분석을 위함
 2. Scrap Request: (요청날짜/시간, 요청 URL, error 유무)
 > * 전체 스크랩 요청 횟수 파악, URL별 스크랩 요청 횟수 파악
