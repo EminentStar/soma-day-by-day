@@ -6,9 +6,9 @@
 > * 전체 스크랩 요청 횟수 파악, URL별 스크랩 요청 횟수 파악
 3. Scrap Error: (요청날짜/시간, 요청 URL, ERROR 메시지)
 > * 어떤 에러가 났는지에 파악
-4. Cache Access :(접근 날짜/시간, 접근캐시서버 이름, 접근 URL)
+4. Cache Access :(접근 날짜/시간, 접근캐시서버 이름, 캐시저장or조회, 접근 URL)
 > * 각 캐시 서버별 접근(api 데이터 SET, GET) 횟수를 통해 각 캐시 서버별 부하 상황을 체크할 수 있기 위함.
-5. Errors: (날짜/시간, StackTrace)
+5. Other Errors: (날짜/시간, StackTrace)
 > 스크랩을 제외한 파악가능한 모든 에러의 message를 로그화한다.
 
 ## Files or DB?
